@@ -64,7 +64,14 @@ int main()
 			cout << currentCoeff;
 		}
 
-		cout << " + ";
+		if (counter > 1)
+		{
+			cout << " + ";
+		}
+		else
+			cout << " ";
+
+
 
 	}
 
